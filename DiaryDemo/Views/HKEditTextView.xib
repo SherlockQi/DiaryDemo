@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HKEditDiaryViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKEditTextView">
+            <rect key="frame" x="0.0" y="0.0" width="541" height="303"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gbp-iM-h2C">
+                    <rect key="frame" x="15" y="10" width="447" height="243"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaS-J2-6K8">
+                    <rect key="frame" x="431" y="253" width="31" height="30"/>
+                    <state key="normal" title="确定"/>
+                    <connections>
+                        <action selector="editButtonDidClick:" destination="-1" eventType="touchUpInside" id="Wtk-54-Rob"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="UaS-J2-6K8" secondAttribute="trailing" constant="15" id="0ui-ap-gTs"/>
+                <constraint firstAttribute="bottom" secondItem="Gbp-iM-h2C" secondAttribute="bottom" constant="30" id="8Wi-3f-fiS"/>
+                <constraint firstItem="Gbp-iM-h2C" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Nzk-0a-XxO"/>
+                <constraint firstItem="Gbp-iM-h2C" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="Xyv-zR-pdF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="UaS-J2-6K8" secondAttribute="bottom" id="jy4-lx-Hdp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Gbp-iM-h2C" secondAttribute="trailing" constant="15" id="mgN-m8-SC0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="button" destination="UaS-J2-6K8" id="KCM-rJ-TUh"/>
+                <outlet property="textView" destination="Gbp-iM-h2C" id="vru-Tn-kb7"/>
+            </connections>
+            <point key="canvasLocation" x="168" y="219.04047976011995"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  DiaryDemo
+//
+//  Created by PDA-iOS on 2019/4/30.
+//  Copyright © 2019 HeiKki. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+NEPlus.h"
+
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
+
+
+#define kColor_mainPink [UIColor colorWithHexString:@"@EE476E"]
+#define kColor_lightPink [UIColor colorWithHexString:@"@FF7E9C"]
+
+
+#define kColor_textGrey [UIColor colorWithHexString:@"@5E5E5E"]
+#define K_FAFAFA_COLOR [UIColor colorWithHexString:@"@FAFAFA"]
+#define K_424242_COLOR [UIColor colorWithHexString:@"@424242"]
+#define K_E3E3E3_COLOR [UIColor colorWithHexString:@"@E3E3E3"]
+#define K_F5F5F5_COLOR [UIColor colorWithHexString:@"@F5F5F5"]
+#define K_E5E5E5_COLOR [UIColor colorWithHexString:@"@E5E5E5"]
+#define K_D0D0D0_COLOR  [UIColor colorWithHexString:@"@D0D0D0"];
+
+
+#define kColor_9 [UIColor colorWithHexString:@"@999999"]
+#define kColor_6 [UIColor colorWithHexString:@"@666666"]
+#define kColor_3 [UIColor colorWithHexString:@"@333333"]
+
+#endif /* PrefixHeader_pch */

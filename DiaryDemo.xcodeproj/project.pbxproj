@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81476C52C4BBD3F2D4804954 /* libPods-DiaryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3598612908B7382EC7058248 /* libPods-DiaryDemo.a */; };
 		F8C13748227843C1004D29A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C13747227843C1004D29A4 /* AppDelegate.m */; };
 		F8C1374B227843C1004D29A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1374A227843C1004D29A4 /* ViewController.m */; };
 		F8C1374E227843C1004D29A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C1374C227843C1004D29A4 /* Main.storyboard */; };
 		F8C13750227843C3004D29A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C1374F227843C3004D29A4 /* Assets.xcassets */; };
 		F8C13753227843C3004D29A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C13751227843C3004D29A4 /* LaunchScreen.storyboard */; };
 		F8C13756227843C3004D29A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C13755227843C3004D29A4 /* main.m */; };
+		F8C13761227845D3004D29A4 /* HKEditDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1375F227845D3004D29A4 /* HKEditDiaryViewController.m */; };
+		F8C1376C2278464C004D29A4 /* HKDiaryImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C137632278464C004D29A4 /* HKDiaryImageCell.m */; };
+		F8C1376D2278464C004D29A4 /* HKDiaryImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C137652278464C004D29A4 /* HKDiaryImageCell.xib */; };
+		F8C1376E2278464C004D29A4 /* HKEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C137662278464C004D29A4 /* HKEditTextView.m */; };
+		F8C1376F2278464C004D29A4 /* HKEditTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C137672278464C004D29A4 /* HKEditTextView.xib */; };
+		F8C137702278464C004D29A4 /* HKDiaryTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1376A2278464C004D29A4 /* HKDiaryTextCell.m */; };
+		F8C137712278464C004D29A4 /* HKDiaryTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C1376B2278464C004D29A4 /* HKDiaryTextCell.xib */; };
+		F8C1377422784657004D29A4 /* HKDairyDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1377222784657004D29A4 /* HKDairyDetailModel.m */; };
+		F8C13778227848DB004D29A4 /* UIColor+NEPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C13777227848DB004D29A4 /* UIColor+NEPlus.m */; };
+		F8C1377D22784BD8004D29A4 /* HKDiaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C1377C22784BD8004D29A4 /* HKDiaryModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01965A3DA404382320D26592 /* Pods-DiaryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiaryDemo/Pods-DiaryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3598612908B7382EC7058248 /* libPods-DiaryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiaryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECFAFF28A76061A1F919FE3 /* Pods-DiaryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiaryDemo/Pods-DiaryDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F8C13743227843C1004D29A4 /* DiaryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C13746227843C1004D29A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8C13747227843C1004D29A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,24 @@
 		F8C13752227843C3004D29A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8C13754227843C3004D29A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8C13755227843C3004D29A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C1375F227845D3004D29A4 /* HKEditDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKEditDiaryViewController.m; sourceTree = "<group>"; };
+		F8C13760227845D3004D29A4 /* HKEditDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKEditDiaryViewController.h; sourceTree = "<group>"; };
+		F8C137632278464C004D29A4 /* HKDiaryImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDiaryImageCell.m; sourceTree = "<group>"; };
+		F8C137642278464C004D29A4 /* HKDiaryImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKDiaryImageCell.h; sourceTree = "<group>"; };
+		F8C137652278464C004D29A4 /* HKDiaryImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKDiaryImageCell.xib; sourceTree = "<group>"; };
+		F8C137662278464C004D29A4 /* HKEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKEditTextView.m; sourceTree = "<group>"; };
+		F8C137672278464C004D29A4 /* HKEditTextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKEditTextView.xib; sourceTree = "<group>"; };
+		F8C137682278464C004D29A4 /* HKDiaryTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKDiaryTextCell.h; sourceTree = "<group>"; };
+		F8C137692278464C004D29A4 /* HKEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKEditTextView.h; sourceTree = "<group>"; };
+		F8C1376A2278464C004D29A4 /* HKDiaryTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDiaryTextCell.m; sourceTree = "<group>"; };
+		F8C1376B2278464C004D29A4 /* HKDiaryTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKDiaryTextCell.xib; sourceTree = "<group>"; };
+		F8C1377222784657004D29A4 /* HKDairyDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKDairyDetailModel.m; sourceTree = "<group>"; };
+		F8C1377322784657004D29A4 /* HKDiaryDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKDiaryDetailModel.h; sourceTree = "<group>"; };
+		F8C1377522784800004D29A4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F8C13776227848DA004D29A4 /* UIColor+NEPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NEPlus.h"; sourceTree = "<group>"; };
+		F8C13777227848DB004D29A4 /* UIColor+NEPlus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NEPlus.m"; sourceTree = "<group>"; };
+		F8C1377B22784BD8004D29A4 /* HKDiaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HKDiaryModel.h; sourceTree = "<group>"; };
+		F8C1377C22784BD8004D29A4 /* HKDiaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HKDiaryModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81476C52C4BBD3F2D4804954 /* libPods-DiaryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41F5BE00F12E647F32AB8B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3598612908B7382EC7058248 /* libPods-DiaryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9BB3F631580E6B7730CF45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01965A3DA404382320D26592 /* Pods-DiaryDemo.debug.xcconfig */,
+				EECFAFF28A76061A1F919FE3 /* Pods-DiaryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F8C1373A227843C1004D29A4 = {
 			isa = PBXGroup;
 			children = (
 				F8C13745227843C1004D29A4 /* DiaryDemo */,
 				F8C13744227843C1004D29A4 /* Products */,
+				DE9BB3F631580E6B7730CF45 /* Pods */,
+				41F5BE00F12E647F32AB8B83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +110,83 @@
 		F8C13745227843C1004D29A4 /* DiaryDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F8C13746227843C1004D29A4 /* AppDelegate.h */,
-				F8C13747227843C1004D29A4 /* AppDelegate.m */,
+				F8C1375E227845C8004D29A4 /* Models */,
+				F8C1375D227845C3004D29A4 /* Views */,
+				F8C1375C227845A6004D29A4 /* Controllers */,
+				F8C1377922784943004D29A4 /* Lib */,
+				F8C1377A2278494F004D29A4 /* Scr */,
+				F8C13762227845DB004D29A4 /* Other */,
+				F8C13754227843C3004D29A4 /* Info.plist */,
+			);
+			path = DiaryDemo;
+			sourceTree = "<group>";
+		};
+		F8C1375C227845A6004D29A4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8C13760227845D3004D29A4 /* HKEditDiaryViewController.h */,
+				F8C1375F227845D3004D29A4 /* HKEditDiaryViewController.m */,
 				F8C13749227843C1004D29A4 /* ViewController.h */,
 				F8C1374A227843C1004D29A4 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F8C1375D227845C3004D29A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8C137642278464C004D29A4 /* HKDiaryImageCell.h */,
+				F8C137632278464C004D29A4 /* HKDiaryImageCell.m */,
+				F8C137652278464C004D29A4 /* HKDiaryImageCell.xib */,
+				F8C137682278464C004D29A4 /* HKDiaryTextCell.h */,
+				F8C1376A2278464C004D29A4 /* HKDiaryTextCell.m */,
+				F8C1376B2278464C004D29A4 /* HKDiaryTextCell.xib */,
+				F8C137692278464C004D29A4 /* HKEditTextView.h */,
+				F8C137662278464C004D29A4 /* HKEditTextView.m */,
+				F8C137672278464C004D29A4 /* HKEditTextView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8C1375E227845C8004D29A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8C1377322784657004D29A4 /* HKDiaryDetailModel.h */,
+				F8C1377222784657004D29A4 /* HKDairyDetailModel.m */,
+				F8C1377B22784BD8004D29A4 /* HKDiaryModel.h */,
+				F8C1377C22784BD8004D29A4 /* HKDiaryModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8C13762227845DB004D29A4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F8C13746227843C1004D29A4 /* AppDelegate.h */,
+				F8C13747227843C1004D29A4 /* AppDelegate.m */,
+				F8C13755227843C3004D29A4 /* main.m */,
+				F8C1377522784800004D29A4 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F8C1377922784943004D29A4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F8C13776227848DA004D29A4 /* UIColor+NEPlus.h */,
+				F8C13777227848DB004D29A4 /* UIColor+NEPlus.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F8C1377A2278494F004D29A4 /* Scr */ = {
+			isa = PBXGroup;
+			children = (
 				F8C1374C227843C1004D29A4 /* Main.storyboard */,
 				F8C1374F227843C3004D29A4 /* Assets.xcassets */,
 				F8C13751227843C3004D29A4 /* LaunchScreen.storyboard */,
-				F8C13754227843C3004D29A4 /* Info.plist */,
-				F8C13755227843C3004D29A4 /* main.m */,
 			);
-			path = DiaryDemo;
+			path = Scr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8C13759227843C3004D29A4 /* Build configuration list for PBXNativeTarget "DiaryDemo" */;
 			buildPhases = (
+				F6F52A62EE3057E0D5861B48 /* [CP] Check Pods Manifest.lock */,
 				F8C1373F227843C1004D29A4 /* Sources */,
 				F8C13740227843C1004D29A4 /* Frameworks */,
 				F8C13741227843C1004D29A4 /* Resources */,
+				421C14D9E633B50C8982076E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,7 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C1376D2278464C004D29A4 /* HKDiaryImageCell.xib in Resources */,
+				F8C1376F2278464C004D29A4 /* HKEditTextView.xib in Resources */,
 				F8C13753227843C3004D29A4 /* LaunchScreen.storyboard in Resources */,
+				F8C137712278464C004D29A4 /* HKDiaryTextCell.xib in Resources */,
 				F8C13750227843C3004D29A4 /* Assets.xcassets in Resources */,
 				F8C1374E227843C1004D29A4 /* Main.storyboard in Resources */,
 			);
@@ -136,14 +259,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		421C14D9E633B50C8982076E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DiaryDemo/Pods-DiaryDemo-resources.sh",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiaryDemo/Pods-DiaryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F52A62EE3057E0D5861B48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiaryDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8C1373F227843C1004D29A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C1376E2278464C004D29A4 /* HKEditTextView.m in Sources */,
 				F8C1374B227843C1004D29A4 /* ViewController.m in Sources */,
+				F8C1377D22784BD8004D29A4 /* HKDiaryModel.m in Sources */,
+				F8C1376C2278464C004D29A4 /* HKDiaryImageCell.m in Sources */,
+				F8C137702278464C004D29A4 /* HKDiaryTextCell.m in Sources */,
 				F8C13756227843C3004D29A4 /* main.m in Sources */,
+				F8C13778227848DB004D29A4 /* UIColor+NEPlus.m in Sources */,
 				F8C13748227843C1004D29A4 /* AppDelegate.m in Sources */,
+				F8C13761227845D3004D29A4 /* HKEditDiaryViewController.m in Sources */,
+				F8C1377422784657004D29A4 /* HKDairyDetailModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +460,14 @@
 		};
 		F8C1375A227843C3004D29A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01965A3DA404382320D26592 /* Pods-DiaryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TJ9GDFV36;
+				GCC_PREFIX_HEADER = "/Users/pda-ios/Desktop/DiaryDemo/DiaryDemo/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = DiaryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +480,14 @@
 		};
 		F8C1375B227843C3004D29A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECFAFF28A76061A1F919FE3 /* Pods-DiaryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8TJ9GDFV36;
+				GCC_PREFIX_HEADER = "/Users/pda-ios/Desktop/DiaryDemo/DiaryDemo/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = DiaryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
